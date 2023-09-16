@@ -13,7 +13,7 @@ public class TestAnsj {
         filter.insertStopNatures("w");
         Map<String,Integer> map1= new HashMap<>();
         String originalFilePath = "D:\\softwork\\测试文本\\orig.txt";//原文路径；
-        ReadTextFromFile rtff=new ReadTextFromFile();
+        FileOperation rtff=new FileOperation();
         String originalText=rtff.readFromFile(originalFilePath);//原文
         String analysisedText = ToAnalysis.parse(originalText).recognition(filter).toStringWithOutNature();
         System.out.println((analysisedText));

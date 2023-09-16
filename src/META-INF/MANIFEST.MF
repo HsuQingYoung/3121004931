@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.myproject.Main
+Class-Path: lib/nlp-lang-1.7.7.jar lib/ansj_seg-5.1.6.jar lib/ansj_seg-5
+ .1.6.jar
+

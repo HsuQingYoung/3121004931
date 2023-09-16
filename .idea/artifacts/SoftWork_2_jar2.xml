@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="SoftWork_2:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/SoftWork_2_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="SoftWork_2.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="SoftWork_2" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: org.ansj:ansj_seg:5.1.6" />
+        <element id="library" level="project" name="Maven: org.nlpcn:nlp-lang:1.7.7" />
+      </element>
+    </root>
+  </artifact>
+</component>
