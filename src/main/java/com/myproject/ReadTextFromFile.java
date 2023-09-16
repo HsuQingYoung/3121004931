@@ -10,8 +10,8 @@ public class ReadTextFromFile {
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = br.readLine()) != null) {
-                sb.append(line).append("\n"); // 将每行内容追加到StringBuilder，并添加换行符
-                //sb.append(line);
+                //sb.append(line).append("\n"); // 将每行内容追加到StringBuilder，并添加换行符
+                sb.append(line);
             }
         } catch (IOException e) {
             e.printStackTrace();

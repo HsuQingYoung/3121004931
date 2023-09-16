@@ -13,7 +13,7 @@ public class main {
         String copiedText=rtff.readFromFile(copiedFilePath);//抄袭
         String answer=rtff.readFromFile(answerFilePath);//相似度
 
-
-
+        String analysisedText = ToAnalysis.parse(originalText).toStringWithOutNature();
+        System.out.println((analysisedText));
     }
 }
