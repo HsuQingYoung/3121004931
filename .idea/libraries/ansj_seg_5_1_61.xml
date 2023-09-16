@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ansj_seg-5.1.61">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../maven/apache-maven-3.8.5-bin/apache-maven-3.8.5/ansj_seg-5.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
